@@ -1,3 +1,8 @@
+Arabic Poem Comprehensive Dataset (APCD).csv
+merged_data.csv
+assets
+LSTM_Model
+GPT_English_Text_generator
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
