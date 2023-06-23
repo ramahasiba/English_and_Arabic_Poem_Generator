@@ -1,1 +1,2 @@
-# Poem_Generator_Rama_Hasiba_12010022
+# English_and_Arabic_Poem_Generator
+Using GPT-2 to generate English and Arabic Poems.
