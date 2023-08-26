@@ -1,2 +1,4 @@
-# English_and_Arabic_Poem_Generator
-Using GPT-2 to generate English and Arabic Poems.
+# Corpus used for training 
+The Arabic model and the English model were both trained on the "Poem Comprehensive Dataset (PCD)". The Arabic dataset contains a total of 1,831,770 poetic verses. Each verse in the dataset includes information such as the poet's name, the age it was written, and its meter. There are 22 different meters, 3701 poets, and 11 different ages represented in the dataset. However, due to limitations I had in the resources, only 50,000 verses were used for training and evaluation purposes in the Arabic model. 
+Similarly, the English dataset which called “merged.csv” consists of 199,002 verses. Each verse in the English dataset is assigned to one of the following meters: iambic, trochee, dactyl, and anapestic. For the English model, a subset of 16,000 verses was used during the training and evaluation process. 
+
