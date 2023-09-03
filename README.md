@@ -17,8 +17,8 @@ As for the evaluation, I used the “Universal Sentence Encoder (USE)” to find
 
 * Transformers: it used to fine-tune the models, utilizing the following classes, or methods (for both languages):
     - AutoTokenizer.from_pretrained used to load the tokenizers to tokenize the data.
-    2. "DataCollatorForLanguageModeling" used for language modeling. Inputs are dynamically padded to the maximum length of a batch if they are not all of the same length.
-    3. "AutoModelWithLMHead.from_pretrained" used to initialize the pre-trained GPT-2 models to fine-tune them using poems.
-    4. "TrainingArguments" class used to specify the output directory, number of training epochs, batch size, and saving steps.
-    5. "Trainer" class was created with the specified model, training argument, and data collator. I used then its method train to train models with the available corpus.
-    6. "Pipeline" function used to create the generator which was configured for text generation and uses the specified model tokenizer.
+    - "DataCollatorForLanguageModeling" used for language modeling. Inputs are dynamically padded to the maximum length of a batch if they are not all of the same length.
+    - "AutoModelWithLMHead.from_pretrained" used to initialize the pre-trained GPT-2 models to fine-tune them using poems.
+    - "TrainingArguments" class used to specify the output directory, number of training epochs, batch size, and saving steps.
+    - "Trainer" class was created with the specified model, training argument, and data collator. I used then its method train to train models with the available corpus.
+    - "Pipeline" function used to create the generator which was configured for text generation and uses the specified model tokenizer.
