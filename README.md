@@ -16,7 +16,7 @@ As for the evaluation, I used the “Universal Sentence Encoder (USE)” to find
 * Pyarabic: It was used to preprocess the Arabic text data, utilizing the “strip_tashkeel” function to remove diacritical marks from the verses.
 
 * Transformers: it used to fine-tune the models, utilizing the following classes, or methods (for both languages):
-    1. "AutoTokenizer.from_pretrained" used to load the tokenizers to tokenize the data.
+    1. `AutoTokenizer.from_pretrained` used to load the tokenizers to tokenize the data.
     2. "DataCollatorForLanguageModeling" used for language modeling. Inputs are dynamically padded to the maximum length of a batch if they are not all of the same length.
     3. "AutoModelWithLMHead.from_pretrained" used to initialize the pre-trained GPT-2 models to fine-tune them using poems.
     4. "TrainingArguments" class used to specify the output directory, number of training epochs, batch size, and saving steps.
