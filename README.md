@@ -4,6 +4,8 @@ Similarly, the English dataset which called “merged.csv” consists of 199,002
 
 # Models used for training
 In the case of the Arabic language, I fine-tuned the “aragpt-base” model which was published on HuggingFace. This model is pre-trained specifically for Arabic text, I tuned it using the corpus of Arabic poetry from the Poem Comprehensive Dataset (PCD). As for the English language, I fine-tuned the GPT-2 model using English peotry from the “merged.cvs” dataset for text generation task.
+![Uploading image.png…]()
+
 
 
 # Embedding
